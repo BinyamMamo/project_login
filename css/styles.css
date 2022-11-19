@@ -3,14 +3,21 @@
   margin: 0;
 }
 
+body{
+  background-image:  url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
 .namelabel, .passlabel, .login, .forgot, .lack{
   display: block;
 }
 
 .container{
-  border-radius: 0.75rem;
-  background: #535758;
-  width: 43vw;
+  /* border-radius: 0.75rem; */
+  background: #111;
+  width: 20rem;
   margin: auto;
   margin-top: 15vh;
   padding: 2rem; 
@@ -27,7 +34,7 @@
   height: 8rem;
   margin: auto;
   margin-top: -5.15rem;
-  background-color: tomato;
+  background-color: #7777dd;
   border-radius: 5rem;
   border: none;
 }
@@ -52,6 +59,8 @@ h3{
 }
 
 .username, .password{
+  width: 20rem;
+  margin: auto;
   color: #7d7d7d;
   font-size: 1.25rem;
   font-family: sans-serif;
@@ -60,32 +69,43 @@ h3{
   padding: 0.4rem 1rem;
   padding-left: 0.5rem;
   /* width: 8rem; */
-  border-radius: 0.2rem;
+  border-radius: 0.1rem;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
 }
 
 .username:focus, .password:focus{
-  color: tomato;
+  color: #7777dd;
+  border: none;
+  border-bottom: 1px solid white;
   outline-color: transparent;
+  outline: none;
 }
 
 .login{
+  font-family: monospace;
+  width: 20rem;
   margin: auto;
-  padding: 0.75rem 1.5rem;
-  background-color: tomato;
+  padding: 0.5rem 0rem;
+  background-color: #7777dd;
   border: none;
-  font-size: 1.5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
+  font-size: 1.75rem;
+  font-weight: bolder;
   color: #f7f7f7;
   letter-spacing: 0.08rem;
-  border-radius: 0.25rem;
+  border-radius: 2rem;
   margin-bottom: 1.25rem;
   cursor: pointer;
 }
 
+.login:hover, .forgot:hover, .lack:hover{
+  opacity: 0.8;
+}
+
 .forgot, .lack{
   cursor: pointer;
-  color: #7777dd;
+  color: #777;
   font-size: 1.05rem;
   font-family: sans-serif;
   line-height: 1.75rem;
