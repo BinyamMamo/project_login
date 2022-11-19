@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.namelabel, .passlabel, .login, .forgot, .lack{
+  display: block;
+}
+
+.container{
+  border-radius: 0.75rem;
+  background: #535758;
+  width: 43vw;
+  margin: auto;
+  margin-top: 15vh;
+  padding: 2rem; 
+  padding-bottom: 0.75rem;
+}
+
+.icon-container{
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border: none;
+}
+.icon{
+  height: 8rem;
+  margin: auto;
+  margin-top: -5.15rem;
+  background-color: tomato;
+  border-radius: 5rem;
+  border: none;
+}
+
+h3{
+  margin: auto;
+  margin-top: 0.75rem;
+  color: #f7f7f7;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.namelabel, .passlabel{
+  color: #e7e7e7;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.5rem;;
+}
+
+.username, .password{
+  color: #7d7d7d;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  letter-spacing: 0.04rem;
+  margin-bottom: 1.25rem;
+  padding: 0.4rem 1rem;
+  padding-left: 0.5rem;
+  /* width: 8rem; */
+  border-radius: 0.2rem;
+}
+
+.username:focus, .password:focus{
+  color: tomato;
+  outline-color: transparent;
+}
+
+.login{
+  margin: auto;
+  padding: 0.75rem 1.5rem;
+  background-color: tomato;
+  border: none;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
+  letter-spacing: 0.08rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+}
+
+.forgot, .lack{
+  cursor: pointer;
+  color: #7777dd;
+  font-size: 1.05rem;
+  font-family: sans-serif;
+  line-height: 1.75rem;
+}
